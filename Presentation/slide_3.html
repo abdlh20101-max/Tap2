@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام التقدم الموحد</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Poppins', sans-serif; overflow: hidden; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            box-sizing: border-box;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .content-card {
+            background-color: #FFFFFF;
+            padding: 40px 60px;
+            border-radius: 16px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px;
+            text-align: right;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 32px;
+            color: #FF4757;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 20px;
+            color: #1E90FF;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #1A1A24;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            position: relative;
+            padding-right: 25px;
+        }
+        li::before {
+            content: '\2022';
+            color: #FF4757;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-right: 10px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .decorative-divider {
+            width: 100px;
+            height: 6px;
+            background-color: #1E90FF;
+            border-radius: 3px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <h1>نظام التقدم الموحد</h1>
+        <div class="decorative-divider"></div>
+        <div class="content-card">
+            <div>
+                <h2>نظام موحد لجميع الألعاب:</h2>
+                <ul>
+                    <li><strong>اللفل (Level):</strong> يرتفع مع جمع نقاط الخبرة (XP).</li>
+                    <li><strong>نقاط الخبرة (XP):</strong> تُكتسب من اللعب في أي من الألعاب العشرة.</li>
+                    <li><strong>العملات (Coins):</strong> تُجمع من الألعاب وتُستخدم لفتح ميزات أو مكافآت.</li>
+                    <li><strong>الطاقة (Energy):</strong> تُستهلك عند بدء الألعاب وتُستعاد تلقائياً بمرور الوقت.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>لماذا نظام موحد؟</h2>
+                <ul>
+                    <li><strong>تعزيز الولاء:</strong> يشجع اللاعبين على استكشاف جميع الألعاب.</li>
+                    <li><strong>تجربة متكاملة:</strong> يشعر اللاعب بالتقدم في المنصة ككل.</li>
+                    <li><strong>سهولة الاستخدام:</strong> نظام واحد بسيط وواضح.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

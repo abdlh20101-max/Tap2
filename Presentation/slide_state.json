@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "title": "GamesHub: منصة الألعاب العالمية المتكاملة",
+    "created": 1773803799.0226743,
+    "last_updated": 1773803854.014079,
+    "total_slides": 8
+  },
+  "slides": [
+    {
+      "id": "slide_1",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_2",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_3",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_4",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_5",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_6",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_7",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_8",
+      "state": "edited",
+      "pageNum": 8
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_1",
+      "title": "GamesHub: منصة الألعاب العالمية المتكاملة",
+      "summary": "رؤيتنا: عالم من الترفيه اللامحدود في جيبك",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_2",
+      "title": "ما هي GamesHub؟",
+      "summary": "منصة ألعاب 2D متكاملة ومبتكرة، مبنية على محرك Unity 2022.3.62f3، تقدم تجربة لعب فريدة وممتعة.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_3",
+      "title": "نظام التقدم الموحد",
+      "summary": "نظام موحد لجميع الألعاب (اللفل، XP، العملات، الطاقة) لتعزيز الولاء وتجربة متكاملة.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_4",
+      "title": "واجهة المستخدم ونظام الإعلانات",
+      "summary": "واجهة احترافية بخلفية 3D متحركة، ونظام إعلانات ذكي وغير مزعج.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_5",
+      "title": "الألعاب العشرة - نظرة عامة",
+      "summary": "مجموعة متنوعة من الألعاب الإدمانية مع وصف وميكانيكية وعنصر إدمان لكل لعبة.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_6",
+      "title": "جودة الكود والتوثيق",
+      "summary": "بناء احترافي وخالٍ من الأخطاء، مع توثيق شامل ودليل نشر على Google Play.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_7",
+      "title": "رؤيتنا المستقبلية",
+      "summary": "خطط توسع مستقبلية تشمل المزيد من الألعاب، نظام الإنجازات، المتجر، والميزات الاجتماعية.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_8",
+      "title": "شكر وتقدير",
+      "summary": "للتواصل والاستفسار، مع رابط المستودع على GitHub.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

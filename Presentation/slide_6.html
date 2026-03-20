@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جودة الكود والتوثيق</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #FFFFFF; overflow: hidden; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .header-section {
+            padding-top: 60px;
+            text-align: center;
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 32px;
+            color: #FF4757;
+            margin-bottom: 10px;
+        }
+        .divider {
+            width: 120px;
+            height: 8px;
+            background-color: #1E90FF;
+            border-radius: 4px;
+            margin: 0 auto 40px auto;
+        }
+        .main-card {
+            width: 1100px;
+            min-height: 450px;
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            display: flex;
+            padding-top: 40px;
+        }
+        .column {
+            flex: 1;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        h2 {
+            font-weight: 800;
+            font-size: 22px;
+            color: #1E90FF;
+            margin-bottom: 25px;
+            border-right: 6px solid #FF4757;
+            padding-right: 15px;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            font-weight: 400;
+            font-size: 18px;
+            color: #1A1A24;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: flex-start;
+        }
+        li::before {
+            content: "•";
+            color: #FF4757;
+            font-weight: 800;
+            font-size: 24px;
+            margin-left: 12px;
+            line-height: 1;
+        }
+        .doc-tag {
+            display: inline-block;
+            background-color: #F0F7FF;
+            color: #1E90FF;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h1>جودة الكود والتوثيق</h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="main-card">
+            <div class="column">
+                <h2>بناء احترافي وخالٍ من الأخطاء</h2>
+                <ul>
+                    <li><strong>Unity 2022.3.62f3:</strong> أحدث إصدار لضمان الأداء والاستقرار.</li>
+                    <li><strong>Clean Code:</strong> كود نظيف، منظم، وموثق بالكامل.</li>
+                    <li><strong>Zero Bugs Guarantee:</strong> اختبارات شاملة لضمان خلو المشروع من الأخطاء.</li>
+                    <li><strong>Editor Script:</strong> لربط السكريبتات تلقائياً عند فتح المشروع.</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>توثيق شامل ومتكامل</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <span class="doc-tag">README_COMPLETE.md</span>
+                            <p style="font-size: 15px; color: #555;">دليل شامل للمشروع.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="doc-tag">TECHNICAL_DOCUMENTATION.md</span>
+                            <p style="font-size: 15px; color: #555;">توثيق تقني مفصل.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="doc-tag">DEPLOYMENT_GUIDE.md</span>
+                            <p style="font-size: 15px; color: #555;">دليل النشر على Google Play.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="doc-tag">QUALITY_ASSURANCE.md</span>
+                            <p style="font-size: 15px; color: #555;">تقرير ضمان الجودة والاختبارات.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

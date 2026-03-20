@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واجهة المستخدم ونظام الإعلانات</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #FFFFFF; color: #1A1A24; overflow: hidden; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .header-section {
+            padding-top: 60px;
+            text-align: center;
+            width: 100%;
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 32px;
+            color: #FF4757;
+            margin-bottom: 15px;
+        }
+        .divider {
+            width: 120px;
+            height: 8px;
+            background-color: #1E90FF;
+            margin: 0 auto 40px auto;
+            border-radius: 4px;
+        }
+        .main-card {
+            width: 1100px;
+            min-height: 450px;
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            display: flex;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .column {
+            flex: 1;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .column-title {
+            font-weight: 800;
+            font-size: 24px;
+            color: #1E90FF;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .column-title i {
+            color: #FF4757;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            position: relative;
+            padding-right: 30px;
+        }
+        li::before {
+            content: "•";
+            color: #FF4757;
+            font-weight: bold;
+            font-size: 24px;
+            position: absolute;
+            right: 0;
+            top: -4px;
+        }
+        .highlight {
+            font-weight: 800;
+            color: #1A1A24;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h1>واجهة المستخدم ونظام الإعلانات</h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="main-card">
+            <!-- UI Section -->
+            <div class="column">
+                <h2 class="column-title">واجهة مستخدم احترافية</h2>
+                <ul>
+                    <li><span class="highlight">خلفية 3D متحركة:</span> تضفي حيوية وجاذبية على الواجهة الرئيسية.</li>
+                    <li><span class="highlight">عرض واضح للبيانات:</span> متابعة فورية للعملات، الطاقة، واللفل.</li>
+                    <li><span class="highlight">إعدادات سهلة:</span> تحكم كامل بالموسيقى والمؤثرات الصوتية بلمسة واحدة.</li>
+                </ul>
+            </div>
+
+            <!-- Ad System Section -->
+            <div class="column">
+                <h2 class="column-title">نظام إعلانات ذكي</h2>
+                <ul>
+                    <li><span class="highlight">بنر سفلي:</span> يتغير تلقائياً كل 7 ثوانٍ لضمان التنوع.</li>
+                    <li><span class="highlight">إعلانات منبثقة:</span> تظهر كل 20 ثانية لمدة 5 ثوانٍ فقط.</li>
+                    <li><span class="highlight">تجربة غير مقاطعة:</span> تصميم يحترم خصوصية اللاعب ولا يعيق اللعب.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
